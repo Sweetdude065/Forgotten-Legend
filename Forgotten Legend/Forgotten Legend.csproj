@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8D3711F-BCF0-43DA-BFC6-EA2629A0AEED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Forgotten_Legend</RootNamespace>
+    <AssemblyName>Forgotten Legend</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_Cave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Cave.Designer.cs">
+      <DependentUpon>Choose_Cave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CutScene1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CutScene1.Designer.cs">
+      <DependentUpon>CutScene1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment.Designer.cs">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fight1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fight1.Designer.cs">
+      <DependentUpon>Fight1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Character.Designer.cs">
+      <DependentUpon>Character.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map1.Designer.cs">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCutScene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealCutScene.Designer.cs">
+      <DependentUpon>RealCutScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealFight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealFight.Designer.cs">
+      <DependentUpon>RealFight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusForm.Designer.cs">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Cave.resx">
+      <DependentUpon>Choose_Cave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CutScene1.resx">
+      <DependentUpon>CutScene1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment.resx">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fight1.resx">
+      <DependentUpon>Fight1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Character.resx">
+      <DependentUpon>Character.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map1.resx">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCutScene.resx">
+      <DependentUpon>RealCutScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealFight.resx">
+      <DependentUpon>RealFight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StatusForm.resx">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaleAdvent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FemaleAdvent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElfMaleAdvent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaleAdventGotHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mageGotHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FemaleAdventGotHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElfMaleAdventGotHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cave1Path.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cave2Path.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
