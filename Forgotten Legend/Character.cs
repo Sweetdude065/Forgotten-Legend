@@ -1,6 +1,7 @@
 ﻿/*
 * Program Name:     Forgotten_Legend
 * Programmer:       Samuel Chinchar
+* Programmer:       Arthur Hotes
 */
 using System;
 using System.Collections.Generic;
