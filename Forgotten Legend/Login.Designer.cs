@@ -33,8 +33,8 @@
             this.userNameBox = new System.Windows.Forms.TextBox();
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.startButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,26 +71,26 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Passcode:";
             // 
-            // button1
+            // startButton
             // 
-            this.button1.Location = new System.Drawing.Point(12, 132);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.startButton.Location = new System.Drawing.Point(12, 132);
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(170, 23);
+            this.startButton.TabIndex = 4;
+            this.startButton.Text = "Start";
+            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
-            // button2
+            // exitButton
             // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(12, 161);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "E&xit";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.exitButton.Location = new System.Drawing.Point(12, 161);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(170, 23);
+            this.exitButton.TabIndex = 5;
+            this.exitButton.Text = "E&xit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // label1
             // 
@@ -154,17 +154,17 @@
             // 
             // Login
             // 
-            this.AcceptButton = this.button1;
+            this.AcceptButton = this.startButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CancelButton = this.button2;
+            this.CancelButton = this.exitButton;
             this.ClientSize = new System.Drawing.Size(194, 196);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.startButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.userNameBox);
@@ -186,8 +186,8 @@
         private System.Windows.Forms.TextBox userNameBox;
         private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;

@@ -23,7 +23,7 @@ namespace Forgotten_Legend
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void startButton_Click(object sender, EventArgs e)
         {
             if (userNameBox.Text == "")
             {
@@ -38,7 +38,7 @@ namespace Forgotten_Legend
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
 
