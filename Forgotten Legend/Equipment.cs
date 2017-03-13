@@ -12,6 +12,7 @@ namespace Forgotten_Legend
 {
     public partial class Equipment : Form
     {
+        //ints and ect
         public Map1 Map;
         public int LeatherHelmetReward;
         public int SwordOn, BowOn;
@@ -34,97 +35,57 @@ namespace Forgotten_Legend
         {
             InitializeComponent();
         }
+        //stats
         public int Character
-
         {
-
             set
-
             {
-
                 selectedCharacter = value;
             }
         }
         public string NameString
-
         {
-
             set
-
             {
-
                 Name = value;
-
             }
         }
         public int Gold
         {
-
             set
-
             {
-
                 gold += value;
-
             }
-
-
         }
-
-
-
         public int ExpNum
         {
-
             set
-
             {
-
                 Exp += value;
-
             }
-
-
         }
-
-
         public int NewMapLvl
         {
             set
-
             {
-
                 NewMapLevel = value;
-
             }
         }
-
-
-
         public int SwordBoost
         {
-
             set
-
             {
                 SwordOn = value;
-
             }
-
         }
         public int YourLevel
         {
-
             set
-
             {
-
                 playerLevel = value;
-
             }
-
-
-        }
+       }
+        //bought equipment
         public int oldBowBought
         {
             set
@@ -168,6 +129,7 @@ namespace Forgotten_Legend
                 oldRing = value;
             }
         }
+        //changable stats
         public int playerMpInt
         {
             set
@@ -190,6 +152,7 @@ namespace Forgotten_Legend
                 defPowerStat = value;
             }
         }
+
         private void ringComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ringComboBox.Text == "Old Ring")
@@ -295,16 +258,10 @@ namespace Forgotten_Legend
 
         public int MapLvl
         {
-
             set
-
             {
-
                 MapLevel = value;
-
             }
-
-
         }
         public int DefencePower
         {
@@ -386,7 +343,7 @@ namespace Forgotten_Legend
                 oldBowOn = 0;
                 brokenWoodenSwordOn = 0;
             }
-        }
+       }
         private void bodyComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (bodyComboBox.Text == "Old Shirt")

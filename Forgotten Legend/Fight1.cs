@@ -24,24 +24,15 @@ namespace Forgotten_Legend
 
         public Fight1()
         {
-
             InitializeComponent();
         }
-
         public string NameString
-
         {
-
             set
-
             {
-
                 Name = value;
-
             }
-
-
-        }
+       }
         public int Character
 
         {

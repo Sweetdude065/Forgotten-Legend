@@ -30,7 +30,6 @@ namespace Forgotten_Legend
             if (roomNum == 1)
             {
 
-
                 if (Dirrection == 1)
                 {
                     roomNum = 2;
