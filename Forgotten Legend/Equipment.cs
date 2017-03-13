@@ -12,7 +12,6 @@ namespace Forgotten_Legend
 {
     public partial class Equipment : Form
     {
-        //ints and ect
         public Map1 Map;
         public int LeatherHelmetReward;
         public int SwordOn, BowOn;
@@ -35,7 +34,6 @@ namespace Forgotten_Legend
         {
             InitializeComponent();
         }
-        //stats
         public int Character
         {
             set
@@ -43,6 +41,7 @@ namespace Forgotten_Legend
                 selectedCharacter = value;
             }
         }
+
         public string NameString
         {
             set
@@ -50,6 +49,7 @@ namespace Forgotten_Legend
                 Name = value;
             }
         }
+
         public int Gold
         {
             set
@@ -57,13 +57,16 @@ namespace Forgotten_Legend
                 gold += value;
             }
         }
+
         public int ExpNum
         {
             set
             {
                 Exp += value;
+
             }
         }
+
         public int NewMapLvl
         {
             set
@@ -71,6 +74,7 @@ namespace Forgotten_Legend
                 NewMapLevel = value;
             }
         }
+
         public int SwordBoost
         {
             set
@@ -78,14 +82,15 @@ namespace Forgotten_Legend
                 SwordOn = value;
             }
         }
+
         public int YourLevel
         {
             set
             {
                 playerLevel = value;
             }
-       }
-        //bought equipment
+        }
+
         public int oldBowBought
         {
             set
@@ -93,6 +98,7 @@ namespace Forgotten_Legend
                 oldBow = value;
             }
         }
+
         public int oldHatBought
         {
             set
@@ -108,6 +114,7 @@ namespace Forgotten_Legend
                 oldShirt = value;
             }
         }
+
         public int oldPantsBought
         {
             set
@@ -115,6 +122,7 @@ namespace Forgotten_Legend
                 oldPants = value;
             }
         }
+
         public int oldShoesBought
         {
             set
@@ -122,6 +130,7 @@ namespace Forgotten_Legend
                 oldShoes = value;
             }
         }
+
         public int oldRingBought
         {
             set
@@ -129,7 +138,7 @@ namespace Forgotten_Legend
                 oldRing = value;
             }
         }
-        //changable stats
+
         public int playerMpInt
         {
             set
@@ -137,6 +146,7 @@ namespace Forgotten_Legend
                 PlayerMpInt = value;
             }
         }
+
         public int StrStat
         {
             set
@@ -169,6 +179,7 @@ namespace Forgotten_Legend
                 MaxMp = value;
             }
         }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -263,6 +274,7 @@ namespace Forgotten_Legend
                 MapLevel = value;
             }
         }
+
         public int DefencePower
         {
             set
@@ -270,6 +282,7 @@ namespace Forgotten_Legend
                 defPower = value;
             }
         }
+
         //equiped gears
         public int BWSON
         {
@@ -278,6 +291,7 @@ namespace Forgotten_Legend
                 brokenWoodenSwordOn = value;
             }
         }
+
         public int OHON
         {
             set
@@ -285,6 +299,7 @@ namespace Forgotten_Legend
                 oldHatOn = value;
             }
         }
+
         public int OSON
         {
             set
@@ -292,6 +307,7 @@ namespace Forgotten_Legend
                 oldShirtOn = value;
             }
         }
+
         public int OPON
         {
             set
@@ -299,6 +315,7 @@ namespace Forgotten_Legend
                 oldPantsOn = value;
             }
         }
+
         public int OSEON
         {
             set
@@ -306,6 +323,7 @@ namespace Forgotten_Legend
                 oldShoeOn = value;
             }
         }
+
         public int ORON
         {
             set
@@ -313,6 +331,7 @@ namespace Forgotten_Legend
                 oldRingOn = value;
             }
         }
+
         public int OBON
         {
             set
@@ -320,6 +339,7 @@ namespace Forgotten_Legend
                 oldBowOn = value;
             }
         }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (mainComboBox.Text == "Broken Wooden Sword")
@@ -343,7 +363,8 @@ namespace Forgotten_Legend
                 oldBowOn = 0;
                 brokenWoodenSwordOn = 0;
             }
-       }
+        }
+
         private void bodyComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (bodyComboBox.Text == "Old Shirt")
@@ -351,6 +372,7 @@ namespace Forgotten_Legend
                 oldShirtOn = 1;
             }
         }
+
         private void legsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (legsComboBox.Text == "Old Pants")
@@ -358,6 +380,7 @@ namespace Forgotten_Legend
                 oldPantsOn = 1;
             }
         }
+
         private void shoeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (shoeComboBox.Text == "Old Shoes")
@@ -365,11 +388,13 @@ namespace Forgotten_Legend
                 oldShoeOn = 1;
             }
         }
+
         private void actionUpdateTimer_Tick(object sender, EventArgs e)
         {
             actionUpdateTimer.Stop();
       
         }
+
         private void HeadComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (headComboBox.Text == "Old Hat")
