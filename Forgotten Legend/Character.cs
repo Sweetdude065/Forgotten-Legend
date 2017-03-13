@@ -2,7 +2,7 @@
 * Program Name:     Forgotten_Legend
 * Programmer:       Samuel Chinchar
 * Programmer:       Arthur Hotes
-* hello world
+* hello sam
 */
 using System;
 using System.Collections.Generic;
