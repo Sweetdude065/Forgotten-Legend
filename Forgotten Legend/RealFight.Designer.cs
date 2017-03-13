@@ -212,7 +212,6 @@
             // 
             // punchTimer
             // 
-            this.punchTimer.Interval = 1500;
             this.punchTimer.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // battleTimer
