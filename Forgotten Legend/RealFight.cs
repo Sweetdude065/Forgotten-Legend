@@ -1124,7 +1124,7 @@ namespace Forgotten_Legend
             if (MapLevel == 100)
             {
                 moblvllabel.Text = "30";
-                Monster.Text = "???";
+                Monster.Text = "Darth Vader";
                 MonsterHpReturn = 2500;
                 MonsterMpReturn = 500;
                 MonsterHpMax = 2500;
