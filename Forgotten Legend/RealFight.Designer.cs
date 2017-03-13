@@ -118,7 +118,7 @@
             this.PlayerHp.AutoSize = true;
             this.PlayerHp.BackColor = System.Drawing.Color.Transparent;
             this.PlayerHp.ForeColor = System.Drawing.Color.White;
-            this.PlayerHp.Location = new System.Drawing.Point(202, 157);
+            this.PlayerHp.Location = new System.Drawing.Point(202, 147);
             this.PlayerHp.Name = "PlayerHp";
             this.PlayerHp.Size = new System.Drawing.Size(25, 13);
             this.PlayerHp.TabIndex = 4;
@@ -129,7 +129,7 @@
             this.PlayerMp.AutoSize = true;
             this.PlayerMp.BackColor = System.Drawing.Color.Transparent;
             this.PlayerMp.ForeColor = System.Drawing.Color.White;
-            this.PlayerMp.Location = new System.Drawing.Point(202, 187);
+            this.PlayerMp.Location = new System.Drawing.Point(203, 194);
             this.PlayerMp.Name = "PlayerMp";
             this.PlayerMp.Size = new System.Drawing.Size(26, 13);
             this.PlayerMp.TabIndex = 5;
@@ -151,7 +151,7 @@
             this.MonsterMp.AutoSize = true;
             this.MonsterMp.BackColor = System.Drawing.Color.Transparent;
             this.MonsterMp.ForeColor = System.Drawing.Color.White;
-            this.MonsterMp.Location = new System.Drawing.Point(201, 82);
+            this.MonsterMp.Location = new System.Drawing.Point(201, 89);
             this.MonsterMp.Name = "MonsterMp";
             this.MonsterMp.Size = new System.Drawing.Size(26, 13);
             this.MonsterMp.TabIndex = 10;
@@ -232,7 +232,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(170, 187);
+            this.label1.Location = new System.Drawing.Point(171, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
             this.label1.TabIndex = 14;
@@ -243,7 +243,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(170, 156);
+            this.label2.Location = new System.Drawing.Point(170, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(25, 13);
             this.label2.TabIndex = 13;
@@ -254,7 +254,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(171, 82);
+            this.label3.Location = new System.Drawing.Point(171, 89);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(26, 13);
             this.label3.TabIndex = 16;
@@ -337,11 +337,12 @@
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(12, 386);
+            this.resetButton.ForeColor = System.Drawing.Color.Red;
+            this.resetButton.Location = new System.Drawing.Point(113, 385);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(116, 23);
             this.resetButton.TabIndex = 24;
-            this.resetButton.Text = "&You Lost!";
+            this.resetButton.Text = "You Lost!";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Visible = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
@@ -628,18 +629,18 @@
             // 
             this.playerHPBar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.playerHPBar.ForeColor = System.Drawing.Color.Maroon;
-            this.playerHPBar.Location = new System.Drawing.Point(173, 172);
+            this.playerHPBar.Location = new System.Drawing.Point(173, 163);
             this.playerHPBar.Name = "playerHPBar";
-            this.playerHPBar.Size = new System.Drawing.Size(75, 10);
+            this.playerHPBar.Size = new System.Drawing.Size(75, 19);
             this.playerHPBar.TabIndex = 40;
             // 
             // MonsterprogressBar
             // 
             this.MonsterprogressBar.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.MonsterprogressBar.ForeColor = System.Drawing.Color.Maroon;
+            this.MonsterprogressBar.ForeColor = System.Drawing.Color.Red;
             this.MonsterprogressBar.Location = new System.Drawing.Point(173, 67);
             this.MonsterprogressBar.Name = "MonsterprogressBar";
-            this.MonsterprogressBar.Size = new System.Drawing.Size(75, 10);
+            this.MonsterprogressBar.Size = new System.Drawing.Size(75, 19);
             this.MonsterprogressBar.TabIndex = 48;
             // 
             // RealFight
