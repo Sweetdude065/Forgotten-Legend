@@ -62,9 +62,9 @@
             this.mainComboBox.Items.AddRange(new object[] {
             "(None)",
             "Broken Wooden Sword"});
-            this.mainComboBox.Location = new System.Drawing.Point(12, 12);
+            this.mainComboBox.Location = new System.Drawing.Point(265, 344);
             this.mainComboBox.Name = "mainComboBox";
-            this.mainComboBox.Size = new System.Drawing.Size(137, 21);
+            this.mainComboBox.Size = new System.Drawing.Size(97, 21);
             this.mainComboBox.Sorted = true;
             this.mainComboBox.TabIndex = 0;
             this.mainComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -74,7 +74,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(155, 15);
+            this.label1.Location = new System.Drawing.Point(262, 328);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 9;
@@ -85,7 +85,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(155, 42);
+            this.label2.Location = new System.Drawing.Point(158, 260);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 10;
@@ -96,7 +96,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(155, 69);
+            this.label3.Location = new System.Drawing.Point(137, 40);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 11;
@@ -107,7 +107,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(155, 96);
+            this.label4.Location = new System.Drawing.Point(137, 78);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 12;
@@ -118,7 +118,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(155, 124);
+            this.label5.Location = new System.Drawing.Point(137, 118);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 13);
             this.label5.TabIndex = 13;
@@ -129,7 +129,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(155, 152);
+            this.label6.Location = new System.Drawing.Point(137, 162);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 14;
@@ -140,7 +140,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(156, 180);
+            this.label7.Location = new System.Drawing.Point(443, 15);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 13);
             this.label7.TabIndex = 15;
@@ -151,7 +151,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(156, 208);
+            this.label8.Location = new System.Drawing.Point(159, 426);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 16;
@@ -162,7 +162,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(156, 235);
+            this.label9.Location = new System.Drawing.Point(297, 437);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 13);
             this.label9.TabIndex = 17;
@@ -174,9 +174,9 @@
             this.offComboBox.FormattingEnabled = true;
             this.offComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.offComboBox.Location = new System.Drawing.Point(12, 39);
+            this.offComboBox.Location = new System.Drawing.Point(55, 257);
             this.offComboBox.Name = "offComboBox";
-            this.offComboBox.Size = new System.Drawing.Size(137, 21);
+            this.offComboBox.Size = new System.Drawing.Size(97, 21);
             this.offComboBox.Sorted = true;
             this.offComboBox.TabIndex = 18;
             // 
@@ -186,9 +186,9 @@
             this.headComboBox.FormattingEnabled = true;
             this.headComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.headComboBox.Location = new System.Drawing.Point(12, 66);
+            this.headComboBox.Location = new System.Drawing.Point(16, 37);
             this.headComboBox.Name = "headComboBox";
-            this.headComboBox.Size = new System.Drawing.Size(137, 21);
+            this.headComboBox.Size = new System.Drawing.Size(115, 21);
             this.headComboBox.Sorted = true;
             this.headComboBox.TabIndex = 19;
             this.headComboBox.SelectedIndexChanged += new System.EventHandler(this.HeadComboBox_SelectedIndexChanged);
@@ -199,9 +199,9 @@
             this.bodyComboBox.FormattingEnabled = true;
             this.bodyComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.bodyComboBox.Location = new System.Drawing.Point(12, 93);
+            this.bodyComboBox.Location = new System.Drawing.Point(16, 75);
             this.bodyComboBox.Name = "bodyComboBox";
-            this.bodyComboBox.Size = new System.Drawing.Size(136, 21);
+            this.bodyComboBox.Size = new System.Drawing.Size(115, 21);
             this.bodyComboBox.Sorted = true;
             this.bodyComboBox.TabIndex = 20;
             this.bodyComboBox.SelectedIndexChanged += new System.EventHandler(this.bodyComboBox_SelectedIndexChanged);
@@ -212,9 +212,9 @@
             this.legsComboBox.FormattingEnabled = true;
             this.legsComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.legsComboBox.Location = new System.Drawing.Point(12, 121);
+            this.legsComboBox.Location = new System.Drawing.Point(16, 115);
             this.legsComboBox.Name = "legsComboBox";
-            this.legsComboBox.Size = new System.Drawing.Size(136, 21);
+            this.legsComboBox.Size = new System.Drawing.Size(115, 21);
             this.legsComboBox.Sorted = true;
             this.legsComboBox.TabIndex = 21;
             this.legsComboBox.SelectedIndexChanged += new System.EventHandler(this.legsComboBox_SelectedIndexChanged);
@@ -225,9 +225,9 @@
             this.shoeComboBox.FormattingEnabled = true;
             this.shoeComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.shoeComboBox.Location = new System.Drawing.Point(12, 149);
+            this.shoeComboBox.Location = new System.Drawing.Point(16, 159);
             this.shoeComboBox.Name = "shoeComboBox";
-            this.shoeComboBox.Size = new System.Drawing.Size(136, 21);
+            this.shoeComboBox.Size = new System.Drawing.Size(115, 21);
             this.shoeComboBox.Sorted = true;
             this.shoeComboBox.TabIndex = 22;
             this.shoeComboBox.SelectedIndexChanged += new System.EventHandler(this.shoeComboBox_SelectedIndexChanged);
@@ -238,9 +238,9 @@
             this.neckComboBox.FormattingEnabled = true;
             this.neckComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.neckComboBox.Location = new System.Drawing.Point(13, 177);
+            this.neckComboBox.Location = new System.Drawing.Point(330, 12);
             this.neckComboBox.Name = "neckComboBox";
-            this.neckComboBox.Size = new System.Drawing.Size(136, 21);
+            this.neckComboBox.Size = new System.Drawing.Size(107, 21);
             this.neckComboBox.Sorted = true;
             this.neckComboBox.TabIndex = 23;
             // 
@@ -250,7 +250,7 @@
             this.ringComboBox.FormattingEnabled = true;
             this.ringComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.ringComboBox.Location = new System.Drawing.Point(12, 205);
+            this.ringComboBox.Location = new System.Drawing.Point(15, 423);
             this.ringComboBox.Name = "ringComboBox";
             this.ringComboBox.Size = new System.Drawing.Size(136, 21);
             this.ringComboBox.Sorted = true;
@@ -263,9 +263,9 @@
             this.petComboBox.FormattingEnabled = true;
             this.petComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.petComboBox.Location = new System.Drawing.Point(13, 232);
+            this.petComboBox.Location = new System.Drawing.Point(220, 434);
             this.petComboBox.Name = "petComboBox";
-            this.petComboBox.Size = new System.Drawing.Size(136, 21);
+            this.petComboBox.Size = new System.Drawing.Size(70, 21);
             this.petComboBox.Sorted = true;
             this.petComboBox.TabIndex = 25;
             // 
@@ -277,7 +277,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(219, 230);
+            this.button1.Location = new System.Drawing.Point(209, 394);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 23);
             this.button1.TabIndex = 26;
@@ -289,9 +289,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(219, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(200, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(97, 182);
+            this.pictureBox1.Size = new System.Drawing.Size(115, 206);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -306,7 +306,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(328, 262);
+            this.ClientSize = new System.Drawing.Size(502, 467);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
