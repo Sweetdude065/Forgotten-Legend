@@ -18,31 +18,19 @@ namespace Forgotten_Legend
             InitializeComponent();
         }
         public int Character
-
         {
-
             set
-
             {
-
                 selectedCharacter = value;
-
             }
         }
         public string NameString
-
         {
-
             set
-
             {
-
                 Name = value;
-
             }
-
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             //autochat
@@ -103,6 +91,7 @@ namespace Forgotten_Legend
 
         private void WhereButton_Click(object sender, EventArgs e)
         {
+            //chat option
             richTextBox1.Text += "\n [" + Name + "] \n Where am I? \n ------------------------";
             richTextBox1.Text += "\n [???] \n You are in a cave, I suggest we get out of here, and quicky! \n ------------------------";
             WhereButton.Visible = false;
@@ -110,6 +99,7 @@ namespace Forgotten_Legend
 
         private void WhoButton_Click(object sender, EventArgs e)
         {
+            //chat option
             richTextBox1.Text += "\n [" + Name + "] \n Who are you? \n ------------------------";
             richTextBox1.Text += "\n [???] \n You don't remember me? Oh well, we got to get out of here right now! \n ------------------------";
             WhoButton.Visible = false;

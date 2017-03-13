@@ -11,6 +11,8 @@ namespace Forgotten_Legend
 {
     partial class AboutBox1 : Form
     {
+
+        //uhhh fix this XD
         public int gold;
         public int Exp;
         public int playerLevel;
@@ -47,6 +49,7 @@ namespace Forgotten_Legend
             this.labelCompanyName.Text = AssemblyCompany;
             this.textBoxDescription.Text = "";
         }
+        //Stats / map level
         public string NameString
         {
             set
@@ -103,6 +106,7 @@ namespace Forgotten_Legend
                 playerLevel = value;
             }
         }
+        //equiped items
         public int oldBowBought
         {
             set
@@ -330,6 +334,7 @@ namespace Forgotten_Legend
 
         private void AboutBox1_Load(object sender, EventArgs e)
         {
+            //character picture
             if (selectedCharacter == 1)
             {
                 logoPictureBox.BackgroundImage = Forgotten_Legend.Properties.Resources.MaleAdvent;
