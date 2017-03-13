@@ -547,7 +547,7 @@ namespace Forgotten_Legend
                 MobSpellCast = rndMobSpellCasting.Next(1, 7);
                 if (MobSpellCast == 4)
                 {
-                    richTextBox1.Text += "You Have been frozen for 5 seconds! \n";
+                    richTextBox1.Text += "You Have been Paralized for 5 seconds! \n";
                     MonsterMpReturn -= 35;
                     mobFreezeTimer.Start();
                 }
@@ -575,7 +575,7 @@ namespace Forgotten_Legend
                             Random rndMobHeal = new Random();
                             MobHeal = rndMobHeal.Next(500, 750);
                             MonsterMpReturn -= 100;
-                            richTextBox1.Text += Monster.Text + " Used Super Heal, It healed: " + MobHeal.ToString() + " Damage. \n";
+                            richTextBox1.Text += Monster.Text + " Used Force Heal, It healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
 
                         }
