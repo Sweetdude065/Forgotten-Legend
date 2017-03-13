@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Forgotten_Legend
 {
-    public partial class CutScene1 : Form
+    public partial class TutCutScene1 : Form
     {
         public int selectedCharacter;
-        public CutScene1()
+        public TutCutScene1()
         {
             InitializeComponent();
         }
@@ -65,7 +65,7 @@ namespace Forgotten_Legend
             //chat option
             timer3.Stop();
             this.Close();
-            Fight1 fightForm = new Fight1();
+            TutFight fightForm = new TutFight();
             fightForm.NameString = Name;
             fightForm.Character = selectedCharacter;
             fightForm.ShowDialog();
@@ -82,7 +82,7 @@ namespace Forgotten_Legend
             //chat option
             timer4.Stop();
             this.Close();
-            Fight1 fightForm = new Fight1();
+            TutFight fightForm = new TutFight();
             fightForm.NameString = Name;
             fightForm.Character = selectedCharacter;
             fightForm.ShowDialog();

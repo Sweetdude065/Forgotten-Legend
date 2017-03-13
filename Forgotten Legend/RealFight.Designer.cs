@@ -76,7 +76,6 @@
             this.slashTimer = new System.Windows.Forms.Timer(this.components);
             this.mobFreezeTimer = new System.Windows.Forms.Timer(this.components);
             this.mobUnfreezeTimer = new System.Windows.Forms.Timer(this.components);
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bowTimer = new System.Windows.Forms.Timer(this.components);
             this.playerFreezeTimer = new System.Windows.Forms.Timer(this.components);
             this.freezeTimer = new System.Windows.Forms.Timer(this.components);
@@ -536,11 +535,6 @@
             this.mobUnfreezeTimer.Interval = 5000;
             this.mobUnfreezeTimer.Tick += new System.EventHandler(this.mobUnfreezeTimer_Tick);
             // 
-            // timer1
-            // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
             // bowTimer
             // 
             this.bowTimer.Interval = 3000;
@@ -764,7 +758,6 @@
         private System.Windows.Forms.Timer slashTimer;
         private System.Windows.Forms.Timer mobFreezeTimer;
         private System.Windows.Forms.Timer mobUnfreezeTimer;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer bowTimer;
         private System.Windows.Forms.Timer playerFreezeTimer;
         private System.Windows.Forms.Timer freezeTimer;

@@ -61,11 +61,11 @@
     <Compile Include="Choose_Cave.Designer.cs">
       <DependentUpon>Choose_Cave.cs</DependentUpon>
     </Compile>
-    <Compile Include="CutScene1.cs">
+    <Compile Include="TutCutScene1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CutScene1.Designer.cs">
-      <DependentUpon>CutScene1.cs</DependentUpon>
+    <Compile Include="TutCutScene1.Designer.cs">
+      <DependentUpon>TutCutScene1.cs</DependentUpon>
     </Compile>
     <Compile Include="Equipment.cs">
       <SubType>Form</SubType>
@@ -73,11 +73,11 @@
     <Compile Include="Equipment.Designer.cs">
       <DependentUpon>Equipment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fight1.cs">
+    <Compile Include="TutFight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fight1.Designer.cs">
-      <DependentUpon>Fight1.cs</DependentUpon>
+    <Compile Include="TutFight.Designer.cs">
+      <DependentUpon>TutFight.cs</DependentUpon>
     </Compile>
     <Compile Include="Character.cs">
       <SubType>Form</SubType>
@@ -135,14 +135,14 @@
     <EmbeddedResource Include="Choose_Cave.resx">
       <DependentUpon>Choose_Cave.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CutScene1.resx">
-      <DependentUpon>CutScene1.cs</DependentUpon>
+    <EmbeddedResource Include="TutCutScene1.resx">
+      <DependentUpon>TutCutScene1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Equipment.resx">
       <DependentUpon>Equipment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fight1.resx">
-      <DependentUpon>Fight1.cs</DependentUpon>
+    <EmbeddedResource Include="TutFight.resx">
+      <DependentUpon>TutFight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Character.resx">
       <DependentUpon>Character.cs</DependentUpon>

@@ -46,7 +46,7 @@ namespace Forgotten_Legend
             {
                 this.Hide();
                 selectedCharacter = 1;
-                CutScene1 aCut = new CutScene1();
+                TutCutScene1 aCut = new TutCutScene1();
                 aCut.NameString = Name;
                 aCut.Character = selectedCharacter;
                 aCut.ShowDialog();
@@ -72,7 +72,7 @@ namespace Forgotten_Legend
             {
                 this.Hide();
                 selectedCharacter = 2;
-                CutScene1 aCut = new CutScene1();
+                TutCutScene1 aCut = new TutCutScene1();
                 aCut.NameString = Name;
                 aCut.Character = selectedCharacter;
                 aCut.ShowDialog();
@@ -98,7 +98,7 @@ namespace Forgotten_Legend
             {
                 this.Hide();
                 selectedCharacter = 3;
-                CutScene1 aCut = new CutScene1();
+                TutCutScene1 aCut = new TutCutScene1();
                 aCut.NameString = Name;
                 aCut.Character = selectedCharacter;
                 aCut.ShowDialog();
@@ -132,7 +132,7 @@ namespace Forgotten_Legend
                 {   
                         this.Hide();
                         pickTimer.Stop();
-                        CutScene1 aCut = new CutScene1();
+                        TutCutScene1 aCut = new TutCutScene1();
                         aCut.NameString = Name;
                         aCut.Character = selectedCharacter;
                         aCut.ShowDialog();

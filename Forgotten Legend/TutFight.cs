@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Forgotten_Legend
 {
 
-    public partial class Fight1 : Form
+    public partial class TutFight : Form
     {
         public int PlayerHpInt = 100;
         public int PlayerMpInt = 50;
@@ -22,7 +22,7 @@ namespace Forgotten_Legend
 
 
 
-        public Fight1()
+        public TutFight()
         {
             InitializeComponent();
         }
@@ -93,6 +93,10 @@ namespace Forgotten_Legend
             MonsterMp.Text = MonsterMpReturn.ToString();
             PlayerHp.Text = PlayerHpInt.ToString();
             PlayerMp.Text = PlayerMpInt.ToString();
+            if (PlayerHpInt > 100)
+            {
+                PlayerHpInt = 100;
+            }
             if (MonsterHpReturn <= 0)
             {
                 richTextBox1.Text += "\nYou have won!";

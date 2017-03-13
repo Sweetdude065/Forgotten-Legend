@@ -1,6 +1,6 @@
 ﻿namespace Forgotten_Legend
 {
-    partial class Fight1
+    partial class TutFight
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fight1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutFight));
             this.Monster = new System.Windows.Forms.Label();
             this.PlayerName = new System.Windows.Forms.Label();
             this.PlayerHp = new System.Windows.Forms.Label();

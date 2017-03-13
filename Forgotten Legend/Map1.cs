@@ -183,33 +183,7 @@ namespace Forgotten_Legend
         {
             this.TopMost = false;
             AboutBox1 aAboutBox = new AboutBox1();
-            aAboutBox.playerMpInt = PlayerMpInt;
-            aAboutBox.maxMp = MaxMp;
-            aAboutBox.DefencePower = defPower;
-            aAboutBox.SwordBoost = SwordOn;
             aAboutBox.Name = Name;
-            aAboutBox.StrStat = strPowerStat;
-            aAboutBox.DefStat = defPowerStat;
-            aAboutBox.ExpNum = Exp;
-            aAboutBox.Gold = gold;
-            aAboutBox.MapLvl = MapLevel;
-            aAboutBox.YourLevel = playerLevel;
-            aAboutBox.NewMapLvl = NewMapLevel;
-            aAboutBox.Character = selectedCharacter;
-            aAboutBox.oldBowBought = oldBow;
-            aAboutBox.oldHatBought = oldHat;
-            aAboutBox.oldShirtBought = oldShirt;
-            aAboutBox.oldPantsBought = oldPants;
-            aAboutBox.oldShoesBought = oldShoes;
-            aAboutBox.oldRingBought = oldRing;
-            //Equip
-            aAboutBox.OBON = oldBowOn;
-            aAboutBox.OHON = oldHatOn;
-            aAboutBox.OSON = oldShirtOn;
-            aAboutBox.OPON = oldPantsOn;
-            aAboutBox.OSEON = oldShoeOn;
-            aAboutBox.ORON = oldRingOn;
-            aAboutBox.BWSON = brokenWoodenSwordOn;
             aAboutBox.ShowDialog();
 
         }
@@ -241,6 +215,7 @@ namespace Forgotten_Legend
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.Close();
             StatusForm Stutus = new StatusForm();
             MapLevel = 1;
             Stutus.playerMpInt = PlayerMpInt;
@@ -272,7 +247,6 @@ namespace Forgotten_Legend
             Stutus.BWSON = brokenWoodenSwordOn;
             this.Close();
             Stutus.ShowDialog();
-
         }
 
         private void updaterTimer_Tick(object sender, EventArgs e)

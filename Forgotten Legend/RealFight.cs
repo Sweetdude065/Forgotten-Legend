@@ -493,7 +493,6 @@ namespace Forgotten_Legend
             }
             if (MapLevel == 5)
             {
-                timer1.Interval = 5000;
                 Random rndMobDamage = new Random();
                 MobPower = rndMobDamage.Next(75, 100) - defPower - defPowerStat;
                 richTextBox1.Text += Monster.Text + " Hit you: " + MobPower.ToString() + " Damage. \n";

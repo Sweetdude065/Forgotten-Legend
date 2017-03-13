@@ -662,6 +662,7 @@ namespace Forgotten_Legend
         private void StatusForm_Load(object sender, EventArgs e)
         {
             Statpoints = 0;
+            this.TopMost = true;
         }
     }
 }

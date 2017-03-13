@@ -1,6 +1,6 @@
 ﻿namespace Forgotten_Legend
 {
-    partial class CutScene1
+    partial class TutCutScene1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CutScene1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutCutScene1));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);

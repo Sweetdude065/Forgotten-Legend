@@ -85,7 +85,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(158, 260);
+            this.label2.Location = new System.Drawing.Point(119, 200);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 10;
@@ -174,7 +174,7 @@
             this.offComboBox.FormattingEnabled = true;
             this.offComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.offComboBox.Location = new System.Drawing.Point(55, 257);
+            this.offComboBox.Location = new System.Drawing.Point(16, 197);
             this.offComboBox.Name = "offComboBox";
             this.offComboBox.Size = new System.Drawing.Size(97, 21);
             this.offComboBox.Sorted = true;
