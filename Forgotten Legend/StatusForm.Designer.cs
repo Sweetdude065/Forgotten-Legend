@@ -491,7 +491,7 @@
             this.totalDefLabel.BackColor = System.Drawing.Color.Transparent;
             this.totalDefLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalDefLabel.ForeColor = System.Drawing.Color.White;
-            this.totalDefLabel.Location = new System.Drawing.Point(219, 235);
+            this.totalDefLabel.Location = new System.Drawing.Point(232, 235);
             this.totalDefLabel.Name = "totalDefLabel";
             this.totalDefLabel.Size = new System.Drawing.Size(54, 15);
             this.totalDefLabel.TabIndex = 50;
@@ -503,7 +503,7 @@
             this.totalStrLabel.BackColor = System.Drawing.Color.Transparent;
             this.totalStrLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalStrLabel.ForeColor = System.Drawing.Color.White;
-            this.totalStrLabel.Location = new System.Drawing.Point(219, 197);
+            this.totalStrLabel.Location = new System.Drawing.Point(232, 197);
             this.totalStrLabel.Name = "totalStrLabel";
             this.totalStrLabel.Size = new System.Drawing.Size(54, 15);
             this.totalStrLabel.TabIndex = 51;
@@ -607,7 +607,7 @@
             this.totalHP.BackColor = System.Drawing.Color.Transparent;
             this.totalHP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalHP.ForeColor = System.Drawing.Color.White;
-            this.totalHP.Location = new System.Drawing.Point(219, 132);
+            this.totalHP.Location = new System.Drawing.Point(232, 132);
             this.totalHP.Name = "totalHP";
             this.totalHP.Size = new System.Drawing.Size(54, 15);
             this.totalHP.TabIndex = 62;
@@ -619,7 +619,7 @@
             this.totalMP.BackColor = System.Drawing.Color.Transparent;
             this.totalMP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalMP.ForeColor = System.Drawing.Color.White;
-            this.totalMP.Location = new System.Drawing.Point(219, 165);
+            this.totalMP.Location = new System.Drawing.Point(232, 165);
             this.totalMP.Name = "totalMP";
             this.totalMP.Size = new System.Drawing.Size(54, 15);
             this.totalMP.TabIndex = 61;

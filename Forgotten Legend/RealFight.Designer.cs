@@ -622,6 +622,7 @@
             // skillCooldown
             // 
             this.skillCooldown.Interval = 500;
+            this.skillCooldown.Tick += new System.EventHandler(this.skillCooldown_Tick);
             // 
             // playerHPBar
             // 
