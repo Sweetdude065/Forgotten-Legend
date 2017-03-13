@@ -241,7 +241,6 @@ namespace Forgotten_Legend
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.TopMost = false;
             StatusForm Stutus = new StatusForm();
             MapLevel = 1;
             Stutus.playerMpInt = PlayerMpInt;
@@ -802,9 +801,10 @@ namespace Forgotten_Legend
             Equip.OSEON = oldShoeOn;
             Equip.ORON = oldRingOn;
             Equip.BWSON = brokenWoodenSwordOn;
+            this.Close();
             Equip.ShowDialog();
 
-            this.Close();
+
         }
 
         private void charTimer_Tick(object sender, EventArgs e)
