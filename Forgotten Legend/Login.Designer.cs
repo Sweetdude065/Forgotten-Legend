@@ -55,7 +55,7 @@
             // 
             // passwordBox
             // 
-            this.passwordBox.Location = new System.Drawing.Point(151, 122);
+            this.passwordBox.Location = new System.Drawing.Point(151, 112);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.Size = new System.Drawing.Size(100, 20);
             this.passwordBox.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(73, 125);
+            this.label2.Location = new System.Drawing.Point(73, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 15);
             this.label2.TabIndex = 3;
