@@ -57,7 +57,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
             this.moblvllabel = new System.Windows.Forms.Label();
-            this.firstTimer = new System.Windows.Forms.Timer(this.components);
             this.lvllabel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.defendButton = new System.Windows.Forms.Button();
@@ -356,12 +355,6 @@
             this.moblvllabel.Name = "moblvllabel";
             this.moblvllabel.Size = new System.Drawing.Size(0, 13);
             this.moblvllabel.TabIndex = 25;
-            // 
-            // firstTimer
-            // 
-            this.firstTimer.Enabled = true;
-            this.firstTimer.Interval = 1;
-            this.firstTimer.Tick += new System.EventHandler(this.firstTimer_Tick);
             // 
             // lvllabel
             // 
@@ -739,7 +732,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.Label moblvllabel;
-        private System.Windows.Forms.Timer firstTimer;
         private System.Windows.Forms.Label lvllabel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button defendButton;
