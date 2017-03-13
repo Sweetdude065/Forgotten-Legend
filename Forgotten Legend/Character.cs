@@ -2,7 +2,6 @@
 * Program Name:     Forgotten_Legend
 * Programmer:       Samuel Chinchar
 * Programmer:       Arthur Hotes
-* hello sam
 */
 using System;
 using System.Collections.Generic;
@@ -25,27 +24,19 @@ namespace Forgotten_Legend
             InitializeComponent();
         }
         public string NameString
-
         {
             //hold name value
             set
-
             {
-
                 Name = value;
-
             }
         }
         public int Pass
-
         {
             //hold passcode value
             set
-
             {
-
                 passcode = value;
-
             }
         }
         private void maleButton1_Click(object sender, EventArgs e)
@@ -72,8 +63,6 @@ namespace Forgotten_Legend
                 aMap.ShowDialog();
                 this.Close();
             }
-
-
         }
 
         private void maleButton2_Click(object sender, EventArgs e)
@@ -100,7 +89,6 @@ namespace Forgotten_Legend
                 aMap.ShowDialog();
                 this.Close();
             }
-  ;
         }
 
         private void femaleButton1_Click(object sender, EventArgs e)
@@ -127,7 +115,6 @@ namespace Forgotten_Legend
                 aMap.ShowDialog();
                 this.Close();
             }
-
         }
 
         private void iLikeBigButtonsAndICannotLie_Click(object sender, EventArgs e)
