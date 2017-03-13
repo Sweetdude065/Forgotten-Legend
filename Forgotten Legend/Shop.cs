@@ -31,7 +31,7 @@ namespace Forgotten_Legend
         public int oldPants;
         public int oldShoes;
         public int oldRing;
-
+        public int IronSword;
 
         public int oldRingOn, oldShoeOn, oldPantsOn, oldShirtOn, oldHatOn, oldBowOn, brokenWoodenSwordOn;
         public int slashPower, bowPower, defPower, evadePower, freezePower, firePower, bolasPower, PlayerHpInt, PlayerMpInt, strPowerStat, defPowerStat;
@@ -246,6 +246,10 @@ namespace Forgotten_Legend
             {
                 button6.Enabled = true;
             }
+            if (gold >= 250)
+            {
+                button5.Enabled = true;
+            }
 
 
         }
@@ -262,6 +266,13 @@ namespace Forgotten_Legend
             set
             {
                 oldRing = value;
+            }
+        }
+        public int IronSwordBought
+        {
+            set
+            {
+                IronSword = value;
             }
         }
         public int DefencePower
@@ -285,6 +296,13 @@ namespace Forgotten_Legend
                 MaxMp = value;
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            gold -= 250;
+            IronSword = 1;
+        }
+
         //equiped gears
         public int BWSON
         {
@@ -333,6 +351,13 @@ namespace Forgotten_Legend
             set
             {
                 oldBowOn = value;
+            }
+        }
+        public int ISON
+        {
+            set
+            {
+        //        IronSwordOn = value;
             }
         }
         private void button1_Click(object sender, EventArgs e)
@@ -390,6 +415,10 @@ namespace Forgotten_Legend
             {
                 button6.Enabled = false;
             }
+            if (gold < 250)
+            {
+                button5.Enabled = false;
+            }
 
 
 
@@ -420,6 +449,11 @@ namespace Forgotten_Legend
                 button7.Text = "Bought";
             }
             if (oldRing == 1)
+            {
+                button6.Enabled = false;
+                button6.Text = "Bought";
+            }
+            if (IronSword == 1)
             {
                 button6.Enabled = false;
                 button6.Text = "Bought";
@@ -457,6 +491,7 @@ namespace Forgotten_Legend
             Map.oldPantsBought = oldPants;
             Map.oldShoesBought = oldShoes;
             Map.oldRingBought = oldRing;
+          // Map.IronSwordBought = IronSword;
             //equiped stuff
             Map.OBON = oldBowOn;
             Map.OHON = oldHatOn;
@@ -464,6 +499,7 @@ namespace Forgotten_Legend
             Map.OPON = oldPantsOn;
             Map.OSEON = oldShoeOn;
             Map.ORON = oldRingOn;
+        //    Map.ISON = IronSwordOn;
             Map.BWSON = brokenWoodenSwordOn;
             this.TopMost = false;
             this.Hide();

@@ -47,7 +47,7 @@
             // 
             // userNameBox
             // 
-            this.userNameBox.Location = new System.Drawing.Point(88, 32);
+            this.userNameBox.Location = new System.Drawing.Point(151, 75);
             this.userNameBox.MaxLength = 10;
             this.userNameBox.Name = "userNameBox";
             this.userNameBox.Size = new System.Drawing.Size(100, 20);
@@ -55,7 +55,7 @@
             // 
             // passwordBox
             // 
-            this.passwordBox.Location = new System.Drawing.Point(88, 76);
+            this.passwordBox.Location = new System.Drawing.Point(151, 112);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.Size = new System.Drawing.Size(100, 20);
             this.passwordBox.TabIndex = 1;
@@ -64,16 +64,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(10, 79);
+            this.label2.Location = new System.Drawing.Point(73, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.Size = new System.Drawing.Size(64, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Passcode:";
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(12, 132);
+            this.startButton.Location = new System.Drawing.Point(76, 190);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(170, 23);
             this.startButton.TabIndex = 4;
@@ -84,7 +85,7 @@
             // exitButton
             // 
             this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.exitButton.Location = new System.Drawing.Point(12, 161);
+            this.exitButton.Location = new System.Drawing.Point(76, 219);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(170, 23);
             this.exitButton.TabIndex = 5;
@@ -96,10 +97,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(10, 35);
+            this.label1.Location = new System.Drawing.Point(73, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(68, 15);
             this.label1.TabIndex = 6;
             this.label1.Text = "Username:";
             // 
@@ -111,7 +113,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(194, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(312, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -160,7 +162,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.exitButton;
-            this.ClientSize = new System.Drawing.Size(194, 196);
+            this.ClientSize = new System.Drawing.Size(312, 279);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.exitButton);

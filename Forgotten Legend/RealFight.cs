@@ -648,6 +648,12 @@ namespace Forgotten_Legend
             Punchbutton.Enabled = true;
         }
 
+        private void skillCooldown_Tick(object sender, EventArgs e)
+        {
+            //tbc
+
+        }
+
         private void freezeTimer_Tick(object sender, EventArgs e)
         {
             freezeTimer.Stop();
