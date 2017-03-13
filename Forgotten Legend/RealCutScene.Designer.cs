@@ -75,7 +75,7 @@
             // 
             // skipButton
             // 
-            this.skipButton.Location = new System.Drawing.Point(240, 492);
+            this.skipButton.Location = new System.Drawing.Point(196, 481);
             this.skipButton.Name = "skipButton";
             this.skipButton.Size = new System.Drawing.Size(110, 23);
             this.skipButton.TabIndex = 10;
@@ -101,11 +101,11 @@
             // 
             this.richTextBox1.AutoWordSelection = true;
             this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.richTextBox1.Location = new System.Drawing.Point(34, 12);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.richTextBox1.Size = new System.Drawing.Size(423, 276);
+            this.richTextBox1.Size = new System.Drawing.Size(465, 263);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -116,7 +116,7 @@
             this.talkButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.talkButton4.Location = new System.Drawing.Point(137, 433);
             this.talkButton4.Name = "talkButton4";
-            this.talkButton4.Size = new System.Drawing.Size(226, 27);
+            this.talkButton4.Size = new System.Drawing.Size(226, 25);
             this.talkButton4.TabIndex = 13;
             this.talkButton4.Text = "Can you help fight?";
             this.talkButton4.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@
             // 
             // talkButton5
             // 
-            this.talkButton5.Location = new System.Drawing.Point(124, 492);
+            this.talkButton5.Location = new System.Drawing.Point(26, 492);
             this.talkButton5.Name = "talkButton5";
             this.talkButton5.Size = new System.Drawing.Size(110, 23);
             this.talkButton5.TabIndex = 14;
@@ -137,7 +137,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(193, 525);
+            this.label1.Location = new System.Drawing.Point(193, 519);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 15;
@@ -149,7 +149,7 @@
             this.talkButton1o2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.talkButton1o2.Location = new System.Drawing.Point(137, 306);
             this.talkButton1o2.Name = "talkButton1o2";
-            this.talkButton1o2.Size = new System.Drawing.Size(226, 23);
+            this.talkButton1o2.Size = new System.Drawing.Size(226, 25);
             this.talkButton1o2.TabIndex = 16;
             this.talkButton1o2.Text = "Nice name";
             this.talkButton1o2.UseVisualStyleBackColor = true;
