@@ -306,7 +306,7 @@
             // 
             // winTimer
             // 
-            this.winTimer.Interval = 5000;
+            this.winTimer.Interval = 1000;
             this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
             // 
             // healTimer

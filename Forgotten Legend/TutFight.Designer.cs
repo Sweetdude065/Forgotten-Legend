@@ -270,7 +270,7 @@
             // 
             // winTimer
             // 
-            this.winTimer.Interval = 5000;
+            this.winTimer.Interval = 1000;
             this.winTimer.Tick += new System.EventHandler(this.winTimer_Tick);
             // 
             // healTimer
@@ -327,7 +327,7 @@
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
-            // Fight1
+            // TutFight
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -356,7 +356,7 @@
             this.Controls.Add(this.Monster);
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "Fight1";
+            this.Name = "TutFight";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Fight1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
