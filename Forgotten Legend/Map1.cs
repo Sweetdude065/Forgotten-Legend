@@ -215,6 +215,7 @@ namespace Forgotten_Legend
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.TopMost = false;
             this.Close();
             StatusForm Stutus = new StatusForm();
             MapLevel = 1;

@@ -943,10 +943,6 @@ namespace Forgotten_Legend
 
         private void RealFight_Load_1(object sender, EventArgs e)
         {
-
-        }
-        private void firstTimer_Tick(object sender, EventArgs e)
-        {
             firstTimer.Stop();
             if (SwordOn == 1)
             {
@@ -1072,9 +1068,9 @@ namespace Forgotten_Legend
                 MonsterName = rnd.Next(1, 5);
                 Random rndRare = new Random();
                 MonsterNameRare = rndRare.Next(1, 10);
-                if(MonsterNameRare == 7)
+                if (MonsterNameRare == 7)
                 {
-                    Monster.Text += "Golden "; 
+                    Monster.Text += "Golden ";
                 }
                 if (MonsterNameRare == 5)
                 {
@@ -1113,8 +1109,8 @@ namespace Forgotten_Legend
             {
                 moblvllabel.Text = "6";
 
-                    Monster.Text += "Slime King";
-                    MonsterHpReturn = 400;
+                Monster.Text += "Slime King";
+                MonsterHpReturn = 400;
                 MonsterHpMax = 400;
                 MonsterMpReturn = 100;
 
@@ -1281,6 +1277,10 @@ namespace Forgotten_Legend
             }
             playerHPBar.Maximum = PlayerHpInt;
             playerHPBar.Value = PlayerHpInt;
+        }
+        private void firstTimer_Tick(object sender, EventArgs e)
+        {
+          
         }
 
         private void charTimer_Tick(object sender, EventArgs e)
