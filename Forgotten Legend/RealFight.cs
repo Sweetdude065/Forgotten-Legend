@@ -943,7 +943,7 @@ namespace Forgotten_Legend
 
         private void RealFight_Load_1(object sender, EventArgs e)
         {
-            firstTimer.Stop();
+
             if (SwordOn == 1)
             {
                 slashButton.Enabled = true;
