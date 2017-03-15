@@ -15,6 +15,8 @@ using System.Windows.Forms;
 
 namespace Forgotten_Legend
 {
+    //Pulling info from page to page
+    #region
     public partial class Character : Form
     {
         public int selectedCharacter;
@@ -39,6 +41,9 @@ namespace Forgotten_Legend
                 passcode = value;
             }
         }
+        #endregion
+        //Character selection buttons
+        #region
         private void maleButton1_Click(object sender, EventArgs e)
         {
             //first player
@@ -157,5 +162,6 @@ namespace Forgotten_Legend
         {
 
         }
+        #endregion
     }
 }
