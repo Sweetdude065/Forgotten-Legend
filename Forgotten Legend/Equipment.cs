@@ -12,28 +12,25 @@ namespace Forgotten_Legend
 {
     public partial class Equipment : Form
     {
+        //ints and decimals
+        #region
         public Map1 Map;
-        public int LeatherHelmetReward;
-        public int SwordOn, BowOn;
         public RealFight RFight;
-        public int gold, Exp, NewMapLevel, playerLevel, MapLevel, selectedCharacter;
-
-        public int oldBow;
-        public int oldHat;
-        public int oldShirt;
-        public int oldPants;
-        public int oldShoes;
-        public int oldRing;
-        public int oldRingOn, oldShoeOn, oldPantsOn, oldShirtOn, oldHatOn, oldBowOn, brokenWoodenSwordOn, ironsword;
-        public int slashPower, bowPower, defPower, evadePower, freezePower, firePower, bolasPower, PlayerHpInt, PlayerMpInt, strPowerStat, defPowerStat;
-
-        public int MaxHp;
-        public int MaxMp;
+        public int LeatherHelmetReward, SwordOn, BowOn, gold, Exp, 
+            NewMapLevel, playerLevel, MapLevel, selectedCharacter, oldBow, 
+            oldHat, oldShirt, oldPants, oldShoes, oldRing,
+            oldRingOn, oldShoeOn, oldPantsOn, oldShirtOn, oldHatOn, oldBowOn, 
+            brokenWoodenSwordOn, ironsword, slashPower, bowPower, defPower, 
+            evadePower, freezePower, firePower, bolasPower, PlayerHpInt, 
+            PlayerMpInt, strPowerStat, defPowerStat, MaxHp, MaxMp;
+        #endregion
 
         public Equipment()
         {
             InitializeComponent();
         }
+        //pulling ints from form to form
+        #region
         public int Character
         {
             set
@@ -162,16 +159,6 @@ namespace Forgotten_Legend
                 defPowerStat = value;
             }
         }
-
-        private void ringComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (ringComboBox.Text == "Old Ring")
-            {
-                defPower += 5;
-                oldRingOn = 1;
-            }
-        }
-
         public int maxMp
         {
             set
@@ -179,12 +166,82 @@ namespace Forgotten_Legend
                 MaxMp = value;
             }
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        public int MapLvl
         {
-
+            set
+            {
+                MapLevel = value;
+            }
         }
 
+        public int DefencePower
+        {
+            set
+            {
+                defPower = value;
+            }
+        }
+
+        //equiped gears
+        public int BWSON
+        {
+            set
+            {
+                brokenWoodenSwordOn = value;
+            }
+        }
+
+        public int OHON
+        {
+            set
+            {
+                oldHatOn = value;
+            }
+        }
+
+        public int OSON
+        {
+            set
+            {
+                oldShirtOn = value;
+            }
+        }
+
+        public int OPON
+        {
+            set
+            {
+                oldPantsOn = value;
+            }
+        }
+
+        public int OSEON
+        {
+            set
+            {
+                oldShoeOn = value;
+            }
+        }
+
+        public int ORON
+        {
+            set
+            {
+                oldRingOn = value;
+            }
+        }
+
+        public int OBON
+        {
+            set
+            {
+                oldBowOn = value;
+            }
+        }
+        #endregion
+
+        //when the form loads
+        #region
         private void Equipment_Load(object sender, EventArgs e)
         {
             defPower = 0;
@@ -261,85 +318,10 @@ namespace Forgotten_Legend
             }
             this.TopMost = true;
         }
+        #endregion
 
-        private void constTimer_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        public int MapLvl
-        {
-            set
-            {
-                MapLevel = value;
-            }
-        }
-
-        public int DefencePower
-        {
-            set
-            {
-                defPower = value;
-            }
-        }
-
-        //equiped gears
-        public int BWSON
-        {
-            set
-            {
-                brokenWoodenSwordOn = value;
-            }
-        }
-
-        public int OHON
-        {
-            set
-            {
-                oldHatOn = value;
-            }
-        }
-
-        public int OSON
-        {
-            set
-            {
-                oldShirtOn = value;
-            }
-        }
-
-        public int OPON
-        {
-            set
-            {
-                oldPantsOn = value;
-            }
-        }
-
-        public int OSEON
-        {
-            set
-            {
-                oldShoeOn = value;
-            }
-        }
-
-        public int ORON
-        {
-            set
-            {
-                oldRingOn = value;
-            }
-        }
-
-        public int OBON
-        {
-            set
-            {
-                oldBowOn = value;
-            }
-        }
-
+        //gear saelfcotion
+        #region
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (mainComboBox.Text == "Broken Wooden Sword")
@@ -364,7 +346,14 @@ namespace Forgotten_Legend
                 brokenWoodenSwordOn = 0;
             }
         }
-
+        private void ringComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ringComboBox.Text == "Old Ring")
+            {
+                defPower += 5;
+                oldRingOn = 1;
+            }
+        }
         private void bodyComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (bodyComboBox.Text == "Old Shirt")
@@ -388,13 +377,6 @@ namespace Forgotten_Legend
                 oldShoeOn = 1;
             }
         }
-
-        private void actionUpdateTimer_Tick(object sender, EventArgs e)
-        {
-            actionUpdateTimer.Stop();
-      
-        }
-
         private void HeadComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (headComboBox.Text == "Old Hat")
@@ -402,6 +384,7 @@ namespace Forgotten_Legend
                 oldHatOn = 1;
             }
         }
+        #endregion
 
         private void button1_Click(object sender, EventArgs e)
         {

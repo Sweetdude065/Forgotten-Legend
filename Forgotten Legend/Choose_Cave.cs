@@ -24,7 +24,8 @@ namespace Forgotten_Legend
         {
             InitializeComponent();
         }
-
+        //picking path to go
+        #region
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             if (roomNum == 1)
@@ -100,5 +101,6 @@ namespace Forgotten_Legend
                 pictureBox2.Visible = false;
             }
         }
+        #endregion
     }
 }
