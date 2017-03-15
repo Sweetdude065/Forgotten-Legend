@@ -73,92 +73,52 @@ namespace Forgotten_Legend
         }
 
         public string NameString
-
         {
-
             set
-
             {
-
                 Name = value;
-
             }
-
-
         }
         public int Gold
         {
-
             set
-
             {
-
                 gold += value;
-
             }
-
-
         }
         public int ExpNum
         {
-
             set
-
             {
-
                 Exp += value;
-
             }
         }
         public int MapLvl
         {
-
             set
-
             {
-
                 MapLevel = value;
-
             }
-
-
         }
         public int YourLevel
         {
-
             set
-
             {
-
                 PlayerLevel = value;
-
             }
-
-
         }
         public int SwordBoost
         {
-
             set
-
             {
-
                 SwordOn = value;
-
             }
-
-
         }
         public int Character
-
         {
-
             set
-
             {
-
                 selectedCharacter = value;
-
             }
         }
         public int oldBowBought
@@ -307,10 +267,7 @@ namespace Forgotten_Legend
             if (progressBar1.Value == 200)
             {
                 progressBar1.Value = 0;
-
             }
-
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -518,7 +475,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 10;
                             richTextBox1.Text += Monster.Text + " Healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -533,7 +489,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 25;
                             richTextBox1.Text += Monster.Text + " used Super Heal, it healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -562,7 +517,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 10;
                             richTextBox1.Text += Monster.Text + " Healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -577,7 +531,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 100;
                             richTextBox1.Text += Monster.Text + " Used Force Heal, It healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -610,8 +563,6 @@ namespace Forgotten_Legend
             {
              progressBar1.Value += 50;
             }
-
-
         }
 
         private void bowTimer_Tick(object sender, EventArgs e)
@@ -942,14 +893,10 @@ namespace Forgotten_Legend
             this.Hide();
             this.Close();
             aMapForm.ShowDialog();
-
-
-
         }
 
         private void RealFight_Load_1(object sender, EventArgs e)
         {
-
             if (SwordOn == 1)
             {
                 slashButton.Enabled = true;
@@ -1360,7 +1307,6 @@ namespace Forgotten_Legend
             bolasButton.Visible = true;
             freezeButton.Visible = true;
             fireBallButton.Visible = true;
-
         }
 
         private void freezeButton_Click(object sender, EventArgs e)
