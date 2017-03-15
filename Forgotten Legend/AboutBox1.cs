@@ -12,7 +12,8 @@ namespace Forgotten_Legend
     partial class AboutBox1 : Form
     {
 
-
+        //text and stuff
+        #region
         public int selectedCharacter;
         public AboutBox1()
         {
@@ -119,7 +120,9 @@ namespace Forgotten_Legend
             }
         }
         #endregion
-
+        #endregion
+        //character picture
+        #region
         private void AboutBox1_Load(object sender, EventArgs e)
         {
             //character picture
@@ -149,5 +152,7 @@ namespace Forgotten_Legend
         {
 
         }
+        #endregion
     }
+
 }
