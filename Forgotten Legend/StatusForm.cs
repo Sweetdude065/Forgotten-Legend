@@ -32,7 +32,7 @@ namespace Forgotten_Legend
         public int oldShoes;
         public int oldRing;
         public int oldRingOn, oldShoeOn, oldPantsOn, oldShirtOn, oldHatOn, oldBowOn, brokenWoodenSwordOn;
-        public int slashPower, bowPower, defPowerStat, strPowerStat, defPower, evadePower, freezePower, firePower, bolasPower, PlayerHpInt, PlayerMpInt, strInt;
+        public int slashPower, bowPower, defPowerStat, strPowerStat, defPower, evadePower, freezePower, firePower, bolasPower, PlayerHpInt, PlayerMpInt, strPower;
 
         public int MaxHp = 0, MaxHpBonus =  0;
         public int MaxMp = 0, MaxMpBonus = 0;
@@ -142,11 +142,11 @@ namespace Forgotten_Legend
             }
             if (oldBowOn == 1)
             {
-                strInt -= 2;
+                strPower -= 2;
             }
             if (oldShoeOn == 1)
             {
-                strInt -= 2;
+                strPower -= 2;
                 defPower -= 3;
             }
             if (oldPantsOn == 1)
@@ -271,7 +271,7 @@ namespace Forgotten_Legend
             goldLabel.Text = gold.ToString();
             strLabel.Text = strPowerStat.ToString();
             totalDefLabel.Text = "Total = "  + (defPower + defPowerStat);
-            totalStrLabel.Text = "Total = "  + (strPowerStat + strInt);
+            totalStrLabel.Text = "Total = "  + (strPowerStat + strPower);
             totalHP.Text = "Total = " + (MaxHp + MaxHpBonus);
             totalMP.Text = "Total = " + (MaxMp + MaxMpBonus);
 
@@ -310,7 +310,7 @@ namespace Forgotten_Legend
                 defendPlus.Enabled = true;
             }
             defGearLabel.Text = "(Gear Bonus: " + defPower + ")";
-            StrGearLabel.Text = "(Gear Bonus: " + strInt + ")";
+            StrGearLabel.Text = "(Gear Bonus: " + strPower + ")";
             HpLabel.Text = MaxHp.ToString();
             MpLabel.Text = MaxMp.ToString();
             MpGearBonus.Text = "(Gear Bonus: " + MaxMpBonus + ")";
@@ -468,11 +468,11 @@ namespace Forgotten_Legend
             }
             if (oldBowOn == 1)
             {
-                strInt += 2;
+                strPower += 2;
             }
             if (oldShoeOn == 1)
             {
-                strInt += 2;
+                strPower += 2;
                 defPower += 3;
             }
             if (oldPantsOn == 1)
