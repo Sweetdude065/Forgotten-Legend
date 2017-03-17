@@ -86,7 +86,7 @@ namespace Forgotten_Legend
             fightForm.NameString = Name;
             fightForm.Character = selectedCharacter;
             fightForm.ShowDialog();
-            this.Hide();
+            this.Close();
         }
 
         private void WhereButton_Click(object sender, EventArgs e)

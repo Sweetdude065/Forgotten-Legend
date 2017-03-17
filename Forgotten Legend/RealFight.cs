@@ -88,53 +88,32 @@ namespace Forgotten_Legend
         }
         public int Gold
         {
-
             set
-
             {
-
                 gold += value;
-
             }
-
-
         }
         public int ExpNum
         {
-
             set
-
             {
-
                 Exp += value;
-
             }
         }
         public int MapLvl
         {
-
             set
-
             {
-
                 MapLevel = value;
-
             }
-
-
         }
+
         public int YourLevel
         {
-
             set
-
             {
-
                 PlayerLevel = value;
-
             }
-
-
         }
         public int SwordBoost
         {

@@ -21,28 +21,21 @@ namespace Forgotten_Legend
         public int Character
 
         {
-
             set
-
             {
-
                 selectedCharacter = value;
-
             }
         }
         public string NameString
 
         {
-
             set
 
             {
-
                 Name = value;
-
             }
-
         }
+
         public int NewMapLvl
         {
             set
@@ -50,7 +43,6 @@ namespace Forgotten_Legend
                 NewMapLevel = value;
             }
         }
-
 
         private void skipButton_Click(object sender, EventArgs e)
         {
@@ -83,7 +75,6 @@ namespace Forgotten_Legend
             }
         }
 
-
         private void talkButton1_Click(object sender, EventArgs e)
         {
             if (NewMapLevel == 1)
@@ -105,7 +96,6 @@ namespace Forgotten_Legend
                 talkButton1o2.Visible = true;
             }
             }
-
 
         private void talkButton1o2_Click(object sender, EventArgs e)
         {
