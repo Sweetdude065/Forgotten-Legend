@@ -194,7 +194,7 @@ namespace Forgotten_Legend
             {
                 gold += 999;
             }
-            if (textBox1.Text == "LetItRainCum")
+            if (textBox1.Text == "ImExperienced")
             {
                 Exp += 1000000;
             }
