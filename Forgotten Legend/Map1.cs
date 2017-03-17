@@ -43,6 +43,7 @@ namespace Forgotten_Legend
         {
             InitializeComponent();
         }
+        #region 
         public string NameString
         {
             set
@@ -178,7 +179,7 @@ namespace Forgotten_Legend
                 defPowerStat = value;
             }
         }
-
+        #endregion Cookies hello
         private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.TopMost = false;
@@ -500,7 +501,7 @@ namespace Forgotten_Legend
                 RFight.ORON = oldRingOn;
                 RFight.BWSON = brokenWoodenSwordOn;
                 RFight.ShowDialog();
-                this.Close();
+                this.Hide();
 
             }
             if(radioButton2.Checked == true)
@@ -536,7 +537,7 @@ namespace Forgotten_Legend
                 RFight.ORON = oldRingOn;
                 RFight.BWSON = brokenWoodenSwordOn;
                 RFight.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             if (radioButton3.Checked == true)
             {
@@ -571,7 +572,7 @@ namespace Forgotten_Legend
                 RFight.ORON = oldRingOn;
                 RFight.BWSON = brokenWoodenSwordOn;
                 RFight.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             if (radioButton4.Checked == true)
             {
@@ -606,7 +607,7 @@ namespace Forgotten_Legend
                 RFight.ORON = oldRingOn;
                 RFight.BWSON = brokenWoodenSwordOn;
                 RFight.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             if (radioButton5.Checked == true)
             {
@@ -641,7 +642,7 @@ namespace Forgotten_Legend
                 RFight.ORON = oldRingOn;
                 RFight.BWSON = brokenWoodenSwordOn;
                 RFight.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             if (CaveradioButton26.Checked == true)
             {
@@ -675,7 +676,7 @@ namespace Forgotten_Legend
                 CShop.ORON = oldRingOn;
                 CShop.BWSON = brokenWoodenSwordOn;
                 CShop.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             if (MysteryRadioButton.Checked == true)
             {
@@ -715,7 +716,7 @@ namespace Forgotten_Legend
                     RFight.ORON = oldRingOn;
                     RFight.BWSON = brokenWoodenSwordOn;
                     RFight.ShowDialog();
-                    this.Close();
+                    this.Hide();
                 }
 
             }
@@ -774,10 +775,8 @@ namespace Forgotten_Legend
             Equip.OSEON = oldShoeOn;
             Equip.ORON = oldRingOn;
             Equip.BWSON = brokenWoodenSwordOn;
-            this.Close();
+            this.Hide();
             Equip.ShowDialog();
-
-
         }
 
         private void charTimer_Tick(object sender, EventArgs e)

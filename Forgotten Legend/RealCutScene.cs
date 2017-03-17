@@ -18,6 +18,7 @@ namespace Forgotten_Legend
         {
             InitializeComponent();
         }
+        #region
         public int Character
 
         {
@@ -43,10 +44,10 @@ namespace Forgotten_Legend
                 NewMapLevel = value;
             }
         }
-
+        #endregion
         private void skipButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void RealCutScene_Load(object sender, EventArgs e)

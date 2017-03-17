@@ -71,7 +71,7 @@ namespace Forgotten_Legend
 
             InitializeComponent();
         }
-
+        #region
         public string NameString
         {
             set
@@ -257,6 +257,7 @@ namespace Forgotten_Legend
                 defPowerStat = value;
             }
         }
+        #endregion
         private void Punchbutton_Click(object sender, EventArgs e)
         {
             Random rndDamage = new Random();
