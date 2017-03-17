@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Equipment));
             this.mainComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,10 +47,8 @@
             this.neckComboBox = new System.Windows.Forms.ComboBox();
             this.ringComboBox = new System.Windows.Forms.ComboBox();
             this.petComboBox = new System.Windows.Forms.ComboBox();
-            this.actionUpdateTimer = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.constTimer = new System.Windows.Forms.Timer(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -280,12 +277,6 @@
             this.petComboBox.Sorted = true;
             this.petComboBox.TabIndex = 25;
             // 
-            // actionUpdateTimer
-            // 
-            this.actionUpdateTimer.Enabled = true;
-            this.actionUpdateTimer.Interval = 10;
-            this.actionUpdateTimer.Tick += new System.EventHandler(this.actionUpdateTimer_Tick);
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(193, 384);
@@ -305,12 +296,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(140, 224);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // constTimer
-            // 
-            this.constTimer.Interval = 1;
-            this.constTimer.Tick += new System.EventHandler(this.constTimer_Tick);
             // 
             // comboBox1
             // 
@@ -392,10 +377,8 @@
         private System.Windows.Forms.ComboBox neckComboBox;
         private System.Windows.Forms.ComboBox ringComboBox;
         private System.Windows.Forms.ComboBox petComboBox;
-        private System.Windows.Forms.Timer actionUpdateTimer;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Timer constTimer;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label10;
     }

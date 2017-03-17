@@ -398,6 +398,7 @@
             this.button5.TabIndex = 35;
             this.button5.Text = "&Iron Sword";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label21
             // 
@@ -406,9 +407,9 @@
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(14, 241);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(77, 13);
+            this.label21.Size = new System.Drawing.Size(83, 13);
             this.label21.TabIndex = 36;
-            this.label21.Text = "(Gold Cost: 50)";
+            this.label21.Text = "(Gold Cost: 250)";
             // 
             // label22
             // 

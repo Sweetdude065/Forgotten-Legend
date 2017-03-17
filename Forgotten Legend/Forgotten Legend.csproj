@@ -61,6 +61,7 @@
     <Compile Include="Choose_Cave.Designer.cs">
       <DependentUpon>Choose_Cave.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stats.cs" />
     <Compile Include="TutCutScene1.cs">
       <SubType>Form</SubType>
     </Compile>

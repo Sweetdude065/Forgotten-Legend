@@ -212,7 +212,6 @@
             // 
             // punchTimer
             // 
-            this.punchTimer.Interval = 1500;
             this.punchTimer.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // battleTimer
@@ -623,6 +622,7 @@
             // skillCooldown
             // 
             this.skillCooldown.Interval = 500;
+            this.skillCooldown.Tick += new System.EventHandler(this.skillCooldown_Tick);
             // 
             // playerHPBar
             // 

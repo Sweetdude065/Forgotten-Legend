@@ -73,18 +73,11 @@ namespace Forgotten_Legend
         }
 
         public string NameString
-
         {
-
             set
-
             {
-
                 Name = value;
-
             }
-
-
         }
         public int Gold
         {
@@ -117,27 +110,16 @@ namespace Forgotten_Legend
         }
         public int SwordBoost
         {
-
             set
-
             {
-
                 SwordOn = value;
-
             }
-
-
         }
         public int Character
-
         {
-
             set
-
             {
-
                 selectedCharacter = value;
-
             }
         }
         public int oldBowBought
@@ -286,10 +268,7 @@ namespace Forgotten_Legend
             if (progressBar1.Value == 200)
             {
                 progressBar1.Value = 0;
-
             }
-
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -497,7 +476,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 10;
                             richTextBox1.Text += Monster.Text + " Healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -512,7 +490,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 25;
                             richTextBox1.Text += Monster.Text + " used Super Heal, it healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -526,7 +503,7 @@ namespace Forgotten_Legend
                 MobSpellCast = rndMobSpellCasting.Next(1, 7);
                 if (MobSpellCast == 4)
                 {
-                    richTextBox1.Text += "You Have been frozen for 5 seconds! \n";
+                    richTextBox1.Text += "You Have been Paralized for 5 seconds! \n";
                     MonsterMpReturn -= 35;
                     mobFreezeTimer.Start();
                 }
@@ -541,7 +518,6 @@ namespace Forgotten_Legend
                             MonsterMpReturn -= 10;
                             richTextBox1.Text += Monster.Text + " Healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -554,9 +530,8 @@ namespace Forgotten_Legend
                             Random rndMobHeal = new Random();
                             MobHeal = rndMobHeal.Next(500, 750);
                             MonsterMpReturn -= 100;
-                            richTextBox1.Text += Monster.Text + " Used Super Heal, It healed: " + MobHeal.ToString() + " Damage. \n";
+                            richTextBox1.Text += Monster.Text + " Used Force Heal, It healed: " + MobHeal.ToString() + " Damage. \n";
                             MonsterHpReturn += MobHeal;
-
                         }
                     }
                 }
@@ -589,8 +564,6 @@ namespace Forgotten_Legend
             {
              progressBar1.Value += 50;
             }
-
-
         }
 
         private void bowTimer_Tick(object sender, EventArgs e)
@@ -625,6 +598,12 @@ namespace Forgotten_Legend
         private void progressBar1_Click(object sender, EventArgs e)
         {
             Punchbutton.Enabled = true;
+        }
+
+        private void skillCooldown_Tick(object sender, EventArgs e)
+        {
+            //tbc
+
         }
 
         private void freezeTimer_Tick(object sender, EventArgs e)
@@ -915,14 +894,10 @@ namespace Forgotten_Legend
             this.Hide();
             this.Close();
             aMapForm.ShowDialog();
-
-
-
         }
 
         private void RealFight_Load_1(object sender, EventArgs e)
         {
-
             if (SwordOn == 1)
             {
                 slashButton.Enabled = true;
@@ -1097,7 +1072,7 @@ namespace Forgotten_Legend
             if (MapLevel == 100)
             {
                 moblvllabel.Text = "30";
-                Monster.Text = "???";
+                Monster.Text = "Darth Vader";
                 MonsterHpReturn = 2500;
                 MonsterMpReturn = 500;
                 MonsterHpMax = 2500;
@@ -1333,7 +1308,6 @@ namespace Forgotten_Legend
             bolasButton.Visible = true;
             freezeButton.Visible = true;
             fireBallButton.Visible = true;
-
         }
 
         private void freezeButton_Click(object sender, EventArgs e)
