@@ -51,7 +51,7 @@ namespace Forgotten_Legend
         {
             //chat option
             richTextBox1.Text += "\n [" + Name + "] \n Let's get moving. \n ------------------------";
-            richTextBox1.Text += "\n [???] \n Good we gotta get out of here before... Oh no. \n ------------------------" + "\n [Monster] \n RAWR!!!!! \n ------------------------";
+            richTextBox1.Text += "\n [???] \n Good we gotta get out of here before... Oh no. \n ------------------------" + "\n * Monster * \n RAWR!!!!! \n ------------------------";
             button3.Visible = false;
             skipButton.Visible = false;
             WhoButton.Visible = false;
@@ -64,7 +64,7 @@ namespace Forgotten_Legend
         {
             //chat option
             timer3.Stop();
-            this.Close();
+            this.Hide();
             TutFight fightForm = new TutFight();
             fightForm.NameString = Name;
             fightForm.Character = selectedCharacter;
@@ -81,12 +81,11 @@ namespace Forgotten_Legend
         {
             //chat option
             timer4.Stop();
-            this.Close();
+            this.Hide();
             TutFight fightForm = new TutFight();
             fightForm.NameString = Name;
             fightForm.Character = selectedCharacter;
             fightForm.ShowDialog();
-            this.Close();
         }
 
         private void WhereButton_Click(object sender, EventArgs e)

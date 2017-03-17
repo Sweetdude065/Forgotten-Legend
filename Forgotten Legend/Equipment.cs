@@ -418,7 +418,6 @@ namespace Forgotten_Legend
             Map.BWSON = brokenWoodenSwordOn;
             this.TopMost = false;
             this.Hide();
-            this.Close();
             Map.ShowDialog();
         }
     }

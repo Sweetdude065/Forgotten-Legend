@@ -255,7 +255,7 @@ namespace Forgotten_Legend
            
         }
 
-        //equiped gears
+        //equiped items
         public int BWSON
         {
             set
@@ -464,8 +464,6 @@ namespace Forgotten_Legend
             }
             Level.Text = playerLevel.ToString();
         }
-
-
 
         private void button1_Click(object sender, EventArgs e)
         {

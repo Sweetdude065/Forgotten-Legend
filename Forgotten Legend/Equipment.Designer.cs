@@ -61,9 +61,9 @@
             this.mainComboBox.Items.AddRange(new object[] {
             "(None)",
             "Broken Wooden Sword"});
-            this.mainComboBox.Location = new System.Drawing.Point(117, 319);
+            this.mainComboBox.Location = new System.Drawing.Point(108, 319);
             this.mainComboBox.Name = "mainComboBox";
-            this.mainComboBox.Size = new System.Drawing.Size(108, 21);
+            this.mainComboBox.Size = new System.Drawing.Size(117, 21);
             this.mainComboBox.Sorted = true;
             this.mainComboBox.TabIndex = 0;
             this.mainComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -74,7 +74,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(141, 301);
+            this.label1.Location = new System.Drawing.Point(136, 301);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 15);
             this.label1.TabIndex = 9;
@@ -86,7 +86,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(283, 301);
+            this.label2.Location = new System.Drawing.Point(297, 301);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 15);
             this.label2.TabIndex = 10;
@@ -182,9 +182,9 @@
             this.offComboBox.FormattingEnabled = true;
             this.offComboBox.Items.AddRange(new object[] {
             "(None)"});
-            this.offComboBox.Location = new System.Drawing.Point(253, 319);
+            this.offComboBox.Location = new System.Drawing.Point(261, 319);
             this.offComboBox.Name = "offComboBox";
-            this.offComboBox.Size = new System.Drawing.Size(108, 21);
+            this.offComboBox.Size = new System.Drawing.Size(117, 21);
             this.offComboBox.Sorted = true;
             this.offComboBox.TabIndex = 18;
             // 

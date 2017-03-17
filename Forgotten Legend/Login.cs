@@ -25,42 +25,33 @@ namespace Forgotten_Legend
 
         private void startButton_Click(object sender, EventArgs e)
         {
+
             if (userNameBox.Text == "")
             {
-                userNameBox.Text += "Legend";
+                userNameBox.Text = "Legend";
             }
-            timer1.Start();
             if(passwordBox.Text == "NewKing")
             {
                 passcodeInt = 1;
             }
-
-
+            string UserName = userNameBox.Text;
+            Character character = new Character();
+            character.NameString = UserName;
+            character.Pass = passcodeInt;
+            this.Hide();
+            character.ShowDialog();
+            
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
-
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            timer1.Stop();
-            string UserName = userNameBox.Text;
-            Character aCharacter = new Character();
-            aCharacter.NameString = UserName;
-            aCharacter.Pass = passcodeInt;
-            aCharacter.ShowDialog();
-
-            this.Close();
-            this.Hide();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1 aAboutBox = new AboutBox1();
-            aAboutBox.ShowDialog();
+            AboutBox1 aboutBox = new AboutBox1();
+            aboutBox.ShowDialog();
         }
     }
 }
